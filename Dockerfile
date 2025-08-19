@@ -39,8 +39,8 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 
 # Set Laravel env to production
 ENV APP_ENV=production
-ENV APP_DEBUG=false
-ENV APP_KEY=
+ENV APP_DEBUG=true
+ENV APP_KEY=base64:qJSVPOILeOW/sw0stCGfSxaR9QYr6pa/Cl4tiIf5A0I=
 
 # Expose Apache port
 EXPOSE 80
